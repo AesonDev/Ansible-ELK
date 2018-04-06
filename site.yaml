@@ -1,5 +1,5 @@
 - name:  elasticsearch 
-  hosts: localhost
+  hosts: elasticsearch
   roles:
      #expand to all available parameters
      - { role: elasticsearch, es_instance_name: "node1", es_data_dirs: "/opt/elasticsearch/data", es_log_dir: "/opt/elasticsearch/logs", 
